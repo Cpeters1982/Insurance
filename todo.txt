@@ -1,0 +1,12 @@
+*~~* Immediate Goals ((Week of 11/6/17)) *~~*
+Build login/Reg
+Build photo upload app
+
+*~~* Intermediate Goals ((Week of 11/13/17)) *~~*
+Google OAuth integration
+Look into adding Google Drive/Dropbox integration
+
+*~~* Future Goals ((Indeterminate)) *~~*
+Conversion to both C#/.Net Core and MEAN stack.
+
+
