@@ -1,0 +1,24 @@
+Instrucions to run locally on your Mac:
+Follow the guide found at http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+This will allow you to run the website locally on you own machine. Super easy, shouldn't take more than a half an hour to do.
+
+
+Next, make a new folder for the project. in that folder you're going to clone the "insurance" repository. Github will walk you through it if you're not familiar with git, but it's pretty easy.
+
+https://github.com/Cpeters1982/insurance/ is the addess to the repository. Click on the green "clone or download" button on the right side of the page.
+
+then, you'll start a new virtualenv, pip install django within that virtualenv, and execute a local server with a few simple commands
+
+navigate to the folder you cloned the repository to.
+
+you'll navigate (via the terminal) into the folder that contains the file manage.py
+
+you'll type the following commands into the terminal: 
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+Make sure you do all this inside a virtualenv, and it should work easily.
+
+then, you'll fire up a web browser and enter loacalhost:8000 into the addressbar, and you should see the site!
