@@ -5,13 +5,15 @@ This will allow you to run the website locally on you own machine. Super easy, s
 
 Next, make a new folder for the project. in that folder you're going to clone the "insurance" repository. Github will walk you through it if you're not familiar with git, but it's pretty easy.
 
-https://github.com/Cpeters1982/insurance/ is the addess to the repository. Click on the green "clone or download" button on the right side of the page.
+https://github.com/Cpeters1982/insurance/ is the addess to the repository. Click on the green "clone or download" button on the right side of the page. 
 
-then, you'll start a new virtualenv, pip install django within that virtualenv, and execute a local server with a few simple commands
+Alternatively, you can run the command: git clone https://github.com/Cpeters1982/insurance.git in your terminal and it'll go all that for you.
 
-navigate to the folder you cloned the repository to.
+Then, you'll start a new virtualenv and type pip install -r requirements.txt in the terminal. This will install the programs needed to run the website. 
+
 
 you'll navigate (via the terminal) into the folder that contains the file manage.py
+
 
 you'll type the following commands into the terminal: 
 
@@ -22,3 +24,13 @@ python manage.py runserver
 Make sure you do all this inside a virtualenv, and it should work easily.
 
 then, you'll fire up a web browser and enter loacalhost:8000 into the addressbar, and you should see the site!
+
+
+A few simple terminal commands to help you out 
+
+"cd .." moves you up one level in a directory. Example: You're in /projects/virtualenv/dumbshit. you want to be in /projects/virtualenv. type cd .. and you'll be there
+"cd <path/to/file>" also works. 
+"ls" shows the contents of a directory useful to know where you are in the directory structure.
+
+call me if you need anything.
+
